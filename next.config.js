@@ -4,5 +4,9 @@ const withNextra = require('nextra')({
 })
 
 module.exports = withNextra({
-  basePath: '/guide',
-})
+  output: 'export',
+  images: {
+    unoptimized: true
+  }
+}
+)

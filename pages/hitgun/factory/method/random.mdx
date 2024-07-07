@@ -10,6 +10,31 @@ For example, let's assume we want to create 9 pieces of content from a 2-hour Yo
 
 <Image src={metotrastgele} />
 
+import Link from 'next/link';
+
+<Link href={`/hitgun/factory/method/random#-tutorial`}>
+  <div className="responsive-table__row" style={{ textAlign: 'center' }}>
+    <div className="responsive-table__item">
+      <button
+        className="responsive-table__button button button--secondary"
+        style={{
+          width: '100%',  // Genişliği %100 olarak ayarlandı
+          marginTop: 14,
+          padding: 12,
+          backgroundColor: '#00AAFF',
+          borderRadius: 8,
+          color: '#fff',
+          fontSize: '1.1rem',
+          textDecoration: 'none',
+          cursor: 'pointer',
+          userSelect: 'none'
+        }}
+      >
+        Jump to Tutorial  
+      </button>
+    </div>
+  </div>
+</Link>
 
 ### Example
 
@@ -39,3 +64,12 @@ After the above settings, 9 random start times are determined within the 2-hour 
 
 
 9 videos are created separately in the time intervals listed in the table and saved to the designated folder in **mp4** format.
+
+
+## 📺 Tutorial
+    
+
+<video controls>
+  <source src="https://forum.ve3.plus/assets/files/2024-04-28/docs-english-tutorials/fabrika-rastgele.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>

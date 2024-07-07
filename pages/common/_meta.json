@@ -4,5 +4,6 @@
     "custom": "Custom",
     "general-settings":"General Settings",
     "test":"Test",
-    "output":"Output"
+    "output":"Output",
+    "notification": "Notification"
 }

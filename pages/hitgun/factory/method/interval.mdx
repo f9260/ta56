@@ -13,6 +13,32 @@ It has two sub-modes: **Random** and **Regular**.
 
 <Image src={metotaralik} />
 
+import Link from 'next/link';
+
+<Link href={`/hitgun/factory/method/interval#-tutorials`}>
+  <div className="responsive-table__row" style={{ textAlign: 'center' }}>
+    <div className="responsive-table__item">
+      <button
+        className="responsive-table__button button button--secondary"
+        style={{
+          width: '100%',  // Genişliği %100 olarak ayarlandı
+          marginTop: 14,
+          padding: 12,
+          backgroundColor: '#00AAFF',
+          borderRadius: 8,
+          color: '#fff',
+          fontSize: '1.1rem',
+          textDecoration: 'none',
+          cursor: 'pointer',
+          userSelect: 'none'
+        }}
+      >
+        Jump to Tutorials
+      </button>
+    </div>
+  </div>
+</Link>
+
 ## Random
 When the Random mode is active, content production is carried out within the entered time intervals for the number of productions written in the "**How Many**" section.
 
@@ -45,6 +71,29 @@ For each time interval, a total of 3 videos of 15 seconds each are randomly prod
 
 At the end of this process, we have a total of **12 videos**.
 
+<Link href={`/hitgun/factory/method/interval#%EF%B8%8F-random`}>
+  <div className="responsive-table__row" style={{ textAlign: 'center' }}>
+    <div className="responsive-table__item">
+      <button
+        className="responsive-table__button button button--secondary"
+        style={{
+          width: '100%',  // Genişliği %100 olarak ayarlandı
+          marginTop: 14,
+          padding: 12,
+          backgroundColor: '#8C00D1',
+          borderRadius: 8,
+          color: '#fff',
+          fontSize: '1.1rem',
+          textDecoration: 'none',
+          cursor: 'pointer',
+          userSelect: 'none'
+        }}
+      >
+        Jump to Tutorial
+      </button>
+    </div>
+  </div>
+</Link>
 
 ## Regular
 <Image src={metotaraliksirali} />
@@ -69,7 +118,7 @@ Here are the settings for a 40-minute YouTube video:
 #### Result
 
 
-| Aralık | Üretim Yapılan Süreler | Üretilen Video Sayısı |
+| Intervals | Production Periods | Number of Produced Videos |
 | :----- | :----: | :----: |
 | 2:14-3:21 | ```2:14-2:59```,```2:59-3:44``` | 2 |
 | 6:16-9:19 | ```6:16-7:01```,```7:01-7:46```,```7:46-8:31```,```8:31-9:16```,```9:16-10:01``` | 5 |
@@ -83,3 +132,46 @@ As seen, different numbers of contents were created for different time intervals
 Each created content is 45 seconds long.
 
 When the duration of the last content exceeds the entered time interval, content production is terminated.
+
+<Link href={`/hitgun/factory/method/interval#%EF%B8%8F-regular`}>
+  <div className="responsive-table__row" style={{ textAlign: 'center' }}>
+    <div className="responsive-table__item">
+      <button
+        className="responsive-table__button button button--secondary"
+        style={{
+          width: '100%',  // Genişliği %100 olarak ayarlandı
+          marginTop: 14,
+          padding: 12,
+          backgroundColor: '#8C00D1',
+          borderRadius: 8,
+          color: '#fff',
+          fontSize: '1.1rem',
+          textDecoration: 'none',
+          cursor: 'pointer',
+          userSelect: 'none'
+        }}
+      >
+        Jump to Tutorial
+      </button>
+    </div>
+  </div>
+</Link>
+
+## 📺 Tutorials
+    
+### ▶️ Random
+    
+
+<video controls>
+  <source src="https://forum.ve3.plus/assets/files/2024-04-28/docs-english-tutorials/fabrika-aralik-rastgele.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+
+### ▶️ Regular
+    
+
+<video controls>
+  <source src="https://forum.ve3.plus/assets/files/2024-04-28/docs-english-tutorials/fabrika-aralik-sirali.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
